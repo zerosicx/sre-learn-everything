@@ -75,9 +75,8 @@ def display_existing_jobs():
     jobs = client.query("jobs:get");
     json_string = json.dumps(jobs, indent=4)
     print(json_string)
-        
-# scrape_jobs()
-# upload_jobs()
 
 if __name__ == "__main__":
+    # scrape_jobs()
+    # upload_jobs()
     display_existing_jobs()

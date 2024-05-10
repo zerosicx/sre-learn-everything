@@ -7,8 +7,13 @@ Packages are useful for structuring Python code into logical groupings for large
 2. Moving app.py into board/
 2. Renaming app.py to __init__.py
 
-Which can be run with the following commands:
+Which can be done with the following commands:
 ```
 (venv) $ mkdir board
 (venv) $ mv app.py board/__init__.py
+```
+
+To run the application,
+```
+python3 -m flask --app board
 ```
